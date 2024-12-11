@@ -1,0 +1,28 @@
+/* styles/main.css */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .projects .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .projects .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Add padding to account for fixed navbar */
+  body {
+    padding-top: 56px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  }
+  
